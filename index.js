@@ -30,4 +30,6 @@ function readLine(type) {
   return line;
 }
 
+function solve() {}
+
 function main() {}
