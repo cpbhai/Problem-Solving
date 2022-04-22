@@ -1,4 +1,10 @@
-[
-  1, 2, 3, 4,
-  5, 6, 7, 9
-]
+SinglyLinkedList {
+  head: Node { val: 1, next: Node { val: 2, next: [Node] } },
+  tail: Node { val: 10, next: null },
+  length: 10
+}
+SinglyLinkedList {
+  head: Node { val: 1, next: Node { val: 2, next: [Node] } },
+  tail: Node { val: 10, next: null },
+  length: 11
+}
