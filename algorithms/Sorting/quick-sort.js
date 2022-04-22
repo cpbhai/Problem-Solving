@@ -32,8 +32,8 @@ function main() {
 }
 /*
   #REFERENCE: https://www.youtube.com/watch?v=UA_Rmjfj4bw
-  #TIME COMPLEXITY: O(nLogn)
+  #TIME COMPLEXITY: O(n^2)
   #SPACE COMPLEXITY: O(1)
   #INPUT SETS:...
-  #NOTE:Used where space is the constraint as well as the time.
+  #NOTE:Used where space is the constraint but not the time.
   */
