@@ -2,18 +2,29 @@
 
 using namespace std;
 
+vector<string> fizzbuzz(int n)
+{
+    vector<string> ans;
+    for (int i = 1; i <= n; ++i)
+    {
+        if (i % 3 == 0 && i % 5 == 0)
+            ans.push_back("FizzBuzz");
+        else if (i % 3 == 0)
+            ans.push_back("Fizz");
+        else if (i % 5 == 0)
+            ans.push_back("Buzz");
+    }
+    return ans;
+}
+
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(0);
-    vector<int> v;
-    for (int i = 1; i <= 1e5; i++)
+    vector<string> ans = fizzbuzz(15);
+    for (string e : ans)
     {
-        v.push_back(i);
-    }
-    for (vector<int>::iterator it = v.begin(); it != v.end(); ++it)
-    {
-        cout << *it << " ";
+        cout << e << " ";
     }
     return 0;
 }
