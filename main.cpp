@@ -8,6 +8,6 @@ int main()
     cin.tie(0);
     int x;
     cin >> x;
-    while(true) cout << x << " m\n";
+    cout << x << " m\n";
     return 0;
 }
