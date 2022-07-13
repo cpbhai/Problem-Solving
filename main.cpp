@@ -9,11 +9,10 @@ void solve()
 
 void submain()
 {
-    int tc;
-    cin >> tc;
-    while (tc--)
+    vector<int> vec = {0, 1, 2, 3, 4, 5};
+    for (int e : vec)
     {
-        solve();
+        cout << e << "\n";
     }
 }
 
