@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-// g++ -std=c++17 main.cpp -o main.exe && timeout 2s ./main.exe<inp.txt>out.txt
+// g++ -std=c++17 main.cpp -o main && timeout 2s ./main<inp.txt>out.txt
 using namespace std;
 
 void solve()
@@ -9,7 +9,7 @@ void solve()
 
 void submain()
 {
-    vector<int> vec = {0, 1, 2, 3, 4, 5};
+    vector<int> vec = {0, 1, 2 };
     for (int e : vec)
     {
         cout << e << "\n";
