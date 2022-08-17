@@ -23,7 +23,6 @@ using namespace std;
     int x;    \
     cin >> x; \
     while (x--)
-#define rand(x, y) x + (rand() % (y - x + 1))
 typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
 
 void harsh()
@@ -31,7 +30,6 @@ void harsh()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    srand(static_cast<unsigned int>(time(nullptr)));
 }
 
 int main()
