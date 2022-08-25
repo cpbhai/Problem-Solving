@@ -34,6 +34,6 @@ void harsh()
 
 int main()
 {
-    harsh();
+    harsh()
     return 0;
 }
