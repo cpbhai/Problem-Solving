@@ -3,14 +3,12 @@ import java.util.Scanner;
 class Solution {
     Scanner sc;
 
-    Integer solve() {
-        int x = sc.nextInt();
-        return x;
+    void solve() {
     }
 
     void harsh() {
         sc = new Scanner(System.in);
-        System.out.println(solve());
+        solve();
         sc.close();
     }
 }
