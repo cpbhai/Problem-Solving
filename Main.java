@@ -13,7 +13,7 @@ class Solution {
     }
 }
 
-public class Main {// javac Main.java && timeout 2s java Main<inp.txt>out.txt
+public class Main {// javac Main.java && java Main
     public static void main(String[] args) {
         Solution sol = new Solution();
         sol.harsh();
