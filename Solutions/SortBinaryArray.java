@@ -38,7 +38,7 @@ class Solution {
     }
 }
 
-public class Main {// javac Main.java && java Main
+public class SortBinaryArray {// javac Main.java && java Main
     public static void main(String[] args) {
         Solution sol = new Solution();
         sol.harsh();
