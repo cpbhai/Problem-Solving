@@ -17,6 +17,7 @@ class Solution {
     }
 
     void solve() {
+        System.out.println(sc.next());
     }
 
     void harsh() {
