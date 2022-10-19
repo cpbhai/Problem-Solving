@@ -17,7 +17,6 @@ class Solution {
     }
 
     void solve() {
-        System.out.println(sc.next());
     }
 
     void harsh() {
@@ -27,7 +26,7 @@ class Solution {
     }
 }
 
-public class Main {// javac Main.java && java Main
+public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
         sol.harsh();
