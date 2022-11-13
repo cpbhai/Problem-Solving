@@ -26,6 +26,13 @@ void harsh()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+    int x;
+    int i = 0;
+    cin >> x;
+    while (i < x)
+    {
+        cout << ++i << " ";
+    }
 }
 
 int main()
